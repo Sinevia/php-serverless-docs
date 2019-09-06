@@ -12,7 +12,7 @@ var Header = {
             $text:"Menu",
             onclick:function(){
                 var html = "";
-                html += '<ul>';
+                html += '<ul class="Menu" style="list-style-type: none;margin:0px;padding:0px;">';
                 html += '  <li>';
                 html += '    <a href="#home" onclick="page(\'home\')">Home</a>',
                 html += '  </li>';
